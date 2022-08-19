@@ -21,4 +21,5 @@ int main() {
     t1.join();
     t2.join();
     t3.join();
+    std::cout << std::thread::hardware_concurrency() << std::endl;
 }
