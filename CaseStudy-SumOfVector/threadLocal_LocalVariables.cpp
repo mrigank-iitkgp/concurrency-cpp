@@ -26,7 +26,7 @@ void summation(vector < int >& arr , ll& sum , ll start , ll end) {
 }
 
 int main() {
-    cout << "Calculating time for Sum of Vectors using multiple threads with atomics fetch add and relaxed semantics!!" << endl;
+    cout << "Calculating time for Sum of Vectors using thread local variables!!" << endl;
 
     // Calculating the sum of random values (uniform distribution(1 , 10)) of vector using Loops
 
